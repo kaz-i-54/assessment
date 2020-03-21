@@ -47,7 +47,7 @@ assessmentButton.onclick = function (){
 };
 
 userNameInput.onkeydown = (event) => {
-    if(event.key = 'Enter'){
+    if(event.key == 'Enter'){
         assessmentButton.onclick();
     }
 };
